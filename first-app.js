@@ -1,3 +1,9 @@
-const fs = require('fs');
+const person = {
+    name: "Max",
+    age: 35,
+    greeting(){
+        console.log('hey there ' + this.name)
+    }
+}
 
-fs.writeFileSync('hello.txt', 'hello from node.js argument');
+person.greeting()
