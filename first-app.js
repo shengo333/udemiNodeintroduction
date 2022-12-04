@@ -18,6 +18,8 @@ const hobbies = ['sport', 'gaming', 'running'];
 //     console.log(e)
 // })
 
-console.log(hobbies.map(hobby => 'Hobby: ' + hobby))
+// console.log(hobbies.map(hobby => 'Hobby: ' + hobby))
 
+
+hobbies.push('driving')
 console.log(hobbies)
