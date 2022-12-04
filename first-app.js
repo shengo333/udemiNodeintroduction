@@ -23,3 +23,10 @@ const hobbies = ['sport', 'gaming', 'running'];
 
 hobbies.push('driving')
 console.log(hobbies)
+
+const result = hobbies.filter((element, index) => {
+    return index != 2
+})
+
+console.log(result)
+
