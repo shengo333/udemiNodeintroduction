@@ -21,12 +21,26 @@ const hobbies = ['sport', 'gaming', 'running'];
 // console.log(hobbies.map(hobby => 'Hobby: ' + hobby))
 
 
-hobbies.push('driving')
-console.log(hobbies)
 
-const result = hobbies.filter((element, index) => {
-    return index != 2
-})
+// const result = hobbies.filter((element, index) => {
+//     return index != 2
+// })
 
-console.log(result)
+// console.log(result)
+
+// const copiedArray = [...hobbies]
+
+// console.log(copiedArray, 'this is copy')
+
+
+// const copiedPerson = {...person}
+
+// console.log(copiedPerson, 'copied person')
+
+
+const toArray = (...args) => {
+    return args
+}
+
+console.log(toArray(1,2,3,10,18))
 
