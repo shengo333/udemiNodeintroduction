@@ -6,7 +6,22 @@ const person = {
     }
 }
 
+const printName = ({name, age}) => {
+    console.log(name, age)
+}
+
+
+printName(person)
+
+const {name, age} = person 
+
+console.log(name, age)
+
 const hobbies = ['sport', 'gaming', 'running'];
+
+const [hobby1, hobby2] = hobbies;
+
+console.log(hobby2, hobby1)
 
 // for (let hoby of hobbies){
 
@@ -38,9 +53,9 @@ const hobbies = ['sport', 'gaming', 'running'];
 // console.log(copiedPerson, 'copied person')
 
 
-const toArray = (...args) => {
-    return args
-}
+// const toArray = (...args) => {
+//     return args
+// }
 
-console.log(toArray(1,2,3,10,18))
+// console.log(toArray(1,2,3,10,18))
 
